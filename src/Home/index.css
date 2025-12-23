@@ -1,0 +1,48 @@
+.bg-home-div {
+  height: 100vw;
+  width: 100vw;
+  background-color: #eef4f7;
+  background-size: cover;
+  padding: 20px;
+}
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  width: 90vw;
+  height: 80vh;
+  gap: 20px;
+}
+.list {
+  list-style-type: none;
+  height: 43vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  height: 200px;
+  width: 40vw;
+}
+.title {
+  padding: 10px;
+}
+.head-para-div {
+  padding: 20px;
+  background-color: white;
+  background-size: cover;
+}
+.head {
+  color: #475569;
+}
+.para {
+  color: #64748b;
+}
+.loader-div{
+  height: 90vw;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
