@@ -41,7 +41,7 @@ class Home extends Component {
   }
 
   renderLoader = () => (
-    <div data-testid="loader">
+    <div data-testid="loader" className="loader-div">
       <p>Loading...</p>
     </div>
   )
@@ -52,7 +52,7 @@ class Home extends Component {
     return (
       <ul className="ul">
         {listOfData.map(each => (
-          <li key={each.id} className="list">
+          <li className="list" key={each.id}>
             <img className="image" alt={each.name} src={each.imageUrl} />
             <div className="head-para-div">
               <h1 className="head">{each.name}</h1>
